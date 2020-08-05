@@ -7,6 +7,7 @@ from nltk.tokenize import sent_tokenize,word_tokenize
 import re
 import ctypes  
 from flask import Flask, redirect, url_for, request,render_template
+
 app = Flask(__name__,template_folder='C:/Users/MONSTER/Desktop')
 
 @app.route('/')
